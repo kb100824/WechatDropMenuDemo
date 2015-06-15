@@ -11,5 +11,4 @@
         
         _lblContent.text = [NSString stringWithFormat:@"按钮tag=%ld,按钮标题%@",selectIndex,selectTitle];
     }];
-
-！[Image](https://github.com/KBvsMJ/WechatDropMenuDemo/blob/master/demogif/1.gif)
+![Image](https://github.com/KBvsMJ/WechatDropMenuDemo/blob/master/demogif/1.gif)
