@@ -14,6 +14,7 @@
 		2D4AF3EF1B2C5B53005B1415 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4AF3EE1B2C5B53005B1415 /* Images.xcassets */; };
 		2D4AF3F21B2C5B53005B1415 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D4AF3F01B2C5B53005B1415 /* LaunchScreen.xib */; };
 		2D4AF3FE1B2C5B53005B1415 /* WechatDropMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AF3FD1B2C5B53005B1415 /* WechatDropMenuDemoTests.m */; };
+		2D4AF40A1B2C5BB1005B1415 /* TJDropMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AF4091B2C5BB1005B1415 /* TJDropMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2D4AF3F71B2C5B53005B1415 /* WechatDropMenuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WechatDropMenuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4AF3FC1B2C5B53005B1415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D4AF3FD1B2C5B53005B1415 /* WechatDropMenuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WechatDropMenuDemoTests.m; sourceTree = "<group>"; };
+		2D4AF4081B2C5BB1005B1415 /* TJDropMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJDropMenu.h; sourceTree = "<group>"; };
+		2D4AF4091B2C5BB1005B1415 /* TJDropMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJDropMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		2D4AF3E01B2C5B53005B1415 /* WechatDropMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2D4AF4071B2C5B8F005B1415 /* DropMenu */,
 				2D4AF3E51B2C5B53005B1415 /* AppDelegate.h */,
 				2D4AF3E61B2C5B53005B1415 /* AppDelegate.m */,
 				2D4AF3E81B2C5B53005B1415 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				2D4AF3FC1B2C5B53005B1415 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D4AF4071B2C5B8F005B1415 /* DropMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2D4AF4081B2C5BB1005B1415 /* TJDropMenu.h */,
+				2D4AF4091B2C5BB1005B1415 /* TJDropMenu.m */,
+			);
+			path = DropMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				2D4AF3EA1B2C5B53005B1415 /* ViewController.m in Sources */,
 				2D4AF3E71B2C5B53005B1415 /* AppDelegate.m in Sources */,
 				2D4AF3E41B2C5B53005B1415 /* main.m in Sources */,
+				2D4AF40A1B2C5BB1005B1415 /* TJDropMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +426,7 @@
 				2D4AF4031B2C5B53005B1415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D4AF4041B2C5B53005B1415 /* Build configuration list for PBXNativeTarget "WechatDropMenuDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				2D4AF4061B2C5B53005B1415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
